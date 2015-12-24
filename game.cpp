@@ -101,8 +101,6 @@ int Game::run() {
 			}
 			break;
 		case game_state::closing:
-			//	TODO (?)
-			//	delete things
 			delete menu;
 			delete board;
 			menu = nullptr;
